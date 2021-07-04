@@ -1,19 +1,16 @@
 <template>
-   <div class="columns">
-       <LoginComponent class="column" />
-       <RegistrationComponent class="column" />  
-    </div>
+   <div class="columns mt-6">
+       <LoginComponent class="column is-half is-offset-one-quarter" />
+  </div>
 </template>
 
 <script>
-import LoginComponent from '@/components/LoginComponent.vue'
-import RegistrationComponent from '@/components/RegistrationComponent.vue'
-
+ import LoginComponent from '@/components/LoginComponent.vue'
 export default {
   name: 'Auth',
   components: {
-    LoginComponent,
-    RegistrationComponent
+    LoginComponent
+
   }
 }
 </script>
