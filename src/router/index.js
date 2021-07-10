@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Auth from '../views/Auth.vue'
 import ListOfLeads from '../views/ListOfLeads.vue'
+import DomainList from '../views/DomainList.vue'
 import ProfileUpdate from '../views/ProfileUpdate.vue'
 
 Vue.use(VueRouter)
@@ -17,6 +18,11 @@ const routes = [
     path: '/list-of-leads',
     name: 'ListOfLeads',
     component: ListOfLeads
+  },
+  {
+    path: '/list-of-domains',
+    name: 'DomainList',
+    component: DomainList
   },
   {
     path: '/profile-update',

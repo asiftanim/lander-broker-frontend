@@ -19,8 +19,13 @@
                 Home
             </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ path: '/list-of-leads' }">
-                List of Leads
+                Leads
             </b-navbar-item>
+
+            <b-navbar-item tag="router-link" :to="{ path: '/list-of-domains' }">
+                Domains
+            </b-navbar-item>
+
             <b-navbar-dropdown label="Info">
                 <b-navbar-item href="#">
                     About
