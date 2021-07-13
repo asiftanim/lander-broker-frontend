@@ -5,6 +5,7 @@ import Auth from '../views/Auth.vue'
 import ListOfLeads from '../views/ListOfLeads.vue'
 import DomainList from '../views/DomainList.vue'
 import ProfileUpdate from '../views/ProfileUpdate.vue'
+import Chat from '../views/Chat.vue'
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,11 @@ const routes = [
     path: '/list-of-domains',
     name: 'DomainList',
     component: DomainList
+  },
+  {
+    path: '/chat',
+    name: 'Chat',
+    component: Chat
   },
   {
     path: '/profile-update',

@@ -82,7 +82,7 @@
             </b-table-column>
 
             <b-table-column >
-                <b-button size="is-small" type="is-primary" outlined> 
+                <b-button size="is-small" type="is-primary" tag="router-link" :to="{ path: '/chat' }" outlined> 
                     <b-icon
                     type="is-primary"
                     pack="fas"
