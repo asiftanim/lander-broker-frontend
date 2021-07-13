@@ -1,6 +1,7 @@
 <template>
-   <div class="columns mt-6">
-       <LoginComponent class="column is-half is-offset-one-quarter" />
+   <div>
+      
+      <LoginComponent />
   </div>
 </template>
 

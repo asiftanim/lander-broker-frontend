@@ -26,14 +26,11 @@
                 Domains
             </b-navbar-item>
 
-            <b-navbar-dropdown label="Info">
-                <b-navbar-item href="#">
-                    About
-                </b-navbar-item>
-                <b-navbar-item href="#">
-                    Contact
-                </b-navbar-item>
-            </b-navbar-dropdown>
+            <b-navbar-item tag="router-link" :to="{ path: '/chat' }">
+                Messages
+            </b-navbar-item>
+
+            
         </template>
 
         <template #end>

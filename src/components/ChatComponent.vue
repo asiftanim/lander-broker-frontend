@@ -2,10 +2,9 @@
     <div class="columns" >
 
         <div class="column  is-3 p-0" style="border:1px solid rgb(128, 128, 128, 0.5);">
-            <div class="card" style="height:500px;overflow:auto">
+            <div class="card" style="height:100%;overflow:auto">
                 <div class="card-content" >
-                    <h3 class="has-text-centered has-text-dark">Chat List</h3>
-                        <hr/>
+                    
                     <div class="content">
                         <h6 class="has-text-centered">User 1</h6>
                         <hr/>
@@ -32,7 +31,7 @@
             <div class="card" style="height:500px">
                 <div class="card-content">
                     <div class="content">
-                        <h3 class="has-text-centered has-text-dark">Chat Deatils</h3>
+                        <h3 class="has-text-centered has-text-dark">Conversation</h3>
                         <hr/>
                         <div style="position:absolute;bottom:0;width:95%">
                             <div class="field has-addons">
@@ -52,7 +51,7 @@
             <div class="card" style="height:500px">
                 <div class="card-content">
                     <div class="content is-3">
-                        <h3 class="has-text-centered has-text-dark">Chat Info</h3>
+                        <h3 class="has-text-centered has-text-dark">Other Info</h3>
                 
                         <section class="modal-card-body">
                             <div class="columns">

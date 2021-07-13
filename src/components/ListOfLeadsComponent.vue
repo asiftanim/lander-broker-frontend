@@ -186,6 +186,7 @@
                 </div>
             </div>
         </b-modal>
+        
     </section>
 </template>
 

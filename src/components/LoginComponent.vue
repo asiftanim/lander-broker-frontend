@@ -1,20 +1,28 @@
 <template>
-    <div class="card">
-        <div class="card-content">
-            <div class="content">
-                <h3 class="title has-text-centered has-text-dark">Login</h3>
-                <b-field class="has-text-left" label="E-Mail">
-                    <b-input type="email" placeholder="example@email.com">
-                    </b-input>
-                </b-field>
+    <div class="columns">
+        <div class="column is-4"></div>
 
-                <b-field class="has-text-left" label="Password" >
-                    <b-input type="password" placeholder="Password"  password-reveal>
-                    </b-input>
-                </b-field>
-                <b-button type="is-success" outlined>Sign In</b-button>
+        <div class="column is-3 mt-5">
+            <div class="card">
+                <div class="card-content">
+                    <div class="content">
+                        <h3 class="title has-text-centered has-text-dark">Login</h3>
+                        <b-field class="has-text-left" label="E-Mail">
+                            <b-input type="email" placeholder="example@email.com">
+                            </b-input>
+                        </b-field>
+
+                        <b-field class="has-text-left" label="Password" >
+                            <b-input type="password" placeholder="Password"  password-reveal>
+                            </b-input>
+                        </b-field>
+                        <b-button type="is-success" outlined>Sign In</b-button>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <div class="column is-4"></div>
     </div>
 </template>
 
