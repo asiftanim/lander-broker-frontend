@@ -78,18 +78,70 @@
                                 <div class="has-text-weight-bold column">Offer Type:</div>
                                 <div class="column">Purchase</div>
                             </div>
+
+                            <div class="columns">
+                                <div class="column">
+                                    <b-button  size="is-small" type="is-success" outlined @click="isPriceSetModalActive = true"> 
+                                        <b-icon
+                                        pack="fas"
+                                        icon="dollar-sign"
+                                        size="is-small">
+                                        </b-icon>  
+                                        <span>Set price</span>
+                                    </b-button>
+                                </div>
+                            </div>
+
+                            
                         </section>
                     </div>           
                 </div>
             </div>
+
+            
         </div>
+        <b-modal v-model="isPriceSetModalActive" :width="400" >
+                <div class="card">          
+                    <div class="card-content">
+                        <div class="content">
+                            <header class="modal-card-head">
+                                <p class="modal-card-title">Set Price ($)</p>                   
+                            </header>
+
+                            <section class="modal-card-body">
+                                <b-field label="Amount">
+                                    <b-numberinput min="0">
+                                    </b-numberinput>
+                                </b-field>
+                            </section>
+
+                            <footer class="modal-card-foot">
+                            <b-button
+                                label="Close"
+                                @click="isPriceSetModalActive=false" />
+                            <b-button
+                                label="Save"
+                                type="is-primary" />
+                        </footer>
+
+                        </div>
+                    </div>
+                </div>
+            </b-modal>
         
     </div>
 </template>
 
 <script>
 export default {
-  name: 'ChatComponent'
+  name: 'ChatComponent',
+  data() {
+       return {
+            isPriceSetModalActive:false
+       }
+
+  }
+  
 }
 </script>
 
