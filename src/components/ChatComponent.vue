@@ -6,21 +6,21 @@
                 <div class="card-content" >
                     
                     <div class="content">
-                        <h6 class="has-text-centered">User 1</h6>
+                        <h6 class="has-text-centered">prospect1@gmail.com</h6>
                         <hr/>
-                        <h6 class="has-text-centered">User 2</h6>
+                        <h6 class="has-text-centered">prospect2@gmail.com</h6>
                         <hr/>
-                        <h6 class="has-text-centered">User 3</h6>
+                        <h6 class="has-text-centered">prospect3@gmail.com</h6>
                         <hr/>
-                        <h6 class="has-text-centered">User 4</h6>
+                        <h6 class="has-text-centered">prospect4@gmail.com</h6>
                         <hr/>
-                        <h6 class="has-text-centered">User 5</h6>
+                        <h6 class="has-text-centered">prospect5@gmail.com</h6>
                         <hr/>
-                        <h6 class="has-text-centered">User 6</h6>
+                        <h6 class="has-text-centered">prospect6@gmail.com</h6>
                         <hr/>
-                        <h6 class="has-text-centered">User 7</h6>
+                        <h6 class="has-text-centered">prospect7@gmail.com</h6>
                         <hr/>
-                        <h6 class="has-text-centered">User 8</h6>
+                        <h6 class="has-text-centered">prospect8@gmail.com</h6>
                         
                     </div>           
                 </div>
@@ -28,13 +28,13 @@
         </div>
 
         <div class="column  is-6 p-0" style="border:1px solid rgb(128, 128, 128, 0.5)">
-            <div class="card" style="height:500px">
+            <div class="card" style="height:100%">
                 <div class="card-content">
                     <div class="content">
                         <h3 class="has-text-centered has-text-dark">Conversation</h3>
                         <hr/>
                         <div style="position:absolute;bottom:0;width:95%">
-                            <div class="field has-addons">
+                            <div class="field has-addons mb-5">
                                 <input type="text" class="input is-info is-medium" placeholder="Enter your text...">
                                 <div class="control">
                                     <a class="button is-info is-medium">Sent</a>
@@ -48,7 +48,7 @@
         </div>
 
         <div class="column  is-3 p-0" style="border: 1px solid rgb(128, 128, 128, 0.5)">
-            <div class="card" style="height:500px">
+            <div class="card" style="height:100%">
                 <div class="card-content">
                     <div class="content is-3">
                         <h3 class="has-text-centered has-text-dark">Other Info</h3>
