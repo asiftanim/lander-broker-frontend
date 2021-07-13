@@ -16,7 +16,7 @@
                             <b-input type="password" placeholder="Password"  password-reveal>
                             </b-input>
                         </b-field>
-                        <b-button type="is-success" outlined>Sign In</b-button>
+                        <b-button type="is-success" outlined v-on:click="isAuthenticated">Sign In</b-button>
                     </div>
                 </div>
             </div>
@@ -28,7 +28,13 @@
 
 <script>
 export default {
-  name: 'LoginComponent'
+  name: 'LoginComponent',
+  methods:{
+      isAuthenticated: function(event){
+          this.$store.commit('isAuthenticated', true)
+          this.$router.push("Home")
+      }
+  }
 }
 </script>
 
