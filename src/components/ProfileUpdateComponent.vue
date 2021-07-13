@@ -5,11 +5,13 @@
             <h3 class="title has-text-centered has-text-dark">Update Profile</h3>
             <div class="columns">
                 <div class="coulmn is-4 is-offset-4"></div>
+
                  <div class="column is-4 is-offset-4 ">
                     <figure class="image is-128x128">
                         <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
                     </figure>
                 </div>
+                
                 <div class="coulmn is-4 is-offset-4"></div>
             </div>
 

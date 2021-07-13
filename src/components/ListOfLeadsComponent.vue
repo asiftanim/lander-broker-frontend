@@ -1,5 +1,5 @@
 <template>
-    <section class="mt-5 ml-5">
+    <section>
 
         <b-field >
             <b-switch
@@ -186,7 +186,7 @@
                 </div>
             </div>
         </b-modal>
-        
+
     </section>
 </template>
 

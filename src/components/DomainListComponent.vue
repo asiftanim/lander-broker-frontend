@@ -1,5 +1,5 @@
 <template>
-    <section class="mt-5 ml-5">
+    <section>
         <b-table
             :data="data"
             :paginated="isPaginated"
@@ -34,11 +34,7 @@
             </b-table-column>
 
             <b-table-column field="offer_type" label="Purchasble"  v-slot="props">
-               <b-field>
-                    <b-checkbox disabled v-model="props.row.isPurchasable">
-                        {{ props.row.isPurchasable }}
-                    </b-checkbox>
-                </b-field>
+                {{ props.row.isPurchasable }}
             </b-table-column>
         </b-table>
 

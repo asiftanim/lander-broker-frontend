@@ -1,6 +1,10 @@
 <template>
    <div class="columns">
-       <DomainListComponent />
+     <div class="column">
+        <div class="container">
+          <DomainListComponent  />
+        </div>
+     </div>
   </div>
 </template>
 

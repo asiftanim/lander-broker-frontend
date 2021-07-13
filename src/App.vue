@@ -6,16 +6,8 @@
     </div> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <b-navbar class="mb-6">
-        <template #brand>
-            <b-navbar-item tag="router-link" :to="{ path: '/' }">
-                <img
-                    src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
-                    alt="Lightweight UI components for Vue.js based on Bulma"
-                >
-            </b-navbar-item>
-        </template>
         <template #start>
-            <b-navbar-item href="#">
+            <b-navbar-item tag="router-link" :to="{ path: '/home' }">
                 Home
             </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ path: '/list-of-leads' }">
@@ -29,7 +21,6 @@
             <b-navbar-item tag="router-link" :to="{ path: '/chat' }">
                 Messages
             </b-navbar-item>
-
             
         </template>
 

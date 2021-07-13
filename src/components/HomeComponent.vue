@@ -1,10 +1,10 @@
 <template>
-  <p>Home</p>
+  <h1>Broker Home Page</h1>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'HomeComponent',
   props: {
   }
 }

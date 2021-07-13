@@ -1,8 +1,8 @@
 <template>
     <div class="columns">
         <div class="column is-4"></div>
-
-        <div class="column is-3 mt-5">
+       
+        <div class="column is-4 mt-5">
             <div class="card">
                 <div class="card-content">
                     <div class="content">

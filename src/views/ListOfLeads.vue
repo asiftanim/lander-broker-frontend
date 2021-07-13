@@ -1,6 +1,10 @@
 <template>
    <div class="columns">
-       <ListOfLeadsComponent />
+     <div class="column">
+        <div class="container">
+          <ListOfLeadsComponent  />
+        </div>
+     </div>
   </div>
 </template>
 <script>
