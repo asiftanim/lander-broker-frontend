@@ -7,7 +7,7 @@
                 <div class="coulmn is-4 is-offset-4"></div>
 
                  <div class="column is-4 is-offset-4 ">
-                    <figure class="image is-128x128">
+                    <figure class="image is-128x128" style="margin: auto;">
                         <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
                     </figure>
                 </div>
@@ -33,22 +33,18 @@
             </div>
            
             <b-field class="has-text-left" label="Full Name">
-                <b-input type="text" placeholder="User 1">
-                </b-input>
-            </b-field>
-            <b-field class="has-text-left" label="E-Mail">
-                <b-input type="email" placeholder="user1@email.com">
+                <b-input type="text" placeholder="Full Name">
                 </b-input>
             </b-field>
 
-            <b-field class="has-text-left" label="Old Password" >
+            <!-- <b-field class="has-text-left" label="Old Password" >
                 <b-input type="password" placeholder="Old Password"  password-reveal>
                 </b-input>
             </b-field>
             <b-field class="has-text-left" label="New Password" >
                 <b-input type="password" placeholder="New Password"  password-reveal>
                 </b-input>
-            </b-field>
+            </b-field> -->
             <b-button type="is-success" outlined>Update</b-button>
         </div>
     </div>

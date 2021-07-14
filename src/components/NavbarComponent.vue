@@ -53,9 +53,9 @@
                         </router-link>
                     </b-dropdown-item>
 
-                    <b-dropdown-item value="settings" aria-role="menuitem">
-                        <b-icon icon="cog"></b-icon>
-                         Settings
+                    <b-dropdown-item aria-role="menuitem">
+                        <b-icon icon="lock"></b-icon>
+                         Change Password
                     </b-dropdown-item>
 
                     <b-dropdown-item value="logout" aria-role="menuitem" v-on:click="logout">
