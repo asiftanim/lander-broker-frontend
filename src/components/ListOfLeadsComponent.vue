@@ -94,41 +94,7 @@
             </b-table-column>
         </b-table>
 
-        <b-modal v-model="isDomainInfoModalActive" :width="400" scroll="keep">
-            <div class="card">          
-                <div class="card-content">
-                    <div class="content">
-                        <header class="modal-card-head">
-                            <p class="modal-card-title">Domain Info</p>                   
-                        </header>
-
-                        <section class="modal-card-body">
-                            <div class="columns">
-                                <div class="has-text-weight-bold column">Domain Name:</div>
-                                <div class="column">Domain.com</div>
-                            </div>
-
-                            <div class="columns">
-                                <div class="has-text-weight-bold column">Asking Price($):</div>
-                                <div class="column">1500</div>
-                            </div>
-
-                            <div class="columns">
-                                <div class="has-text-weight-bold column">Language:</div>
-                                <div class="column">English</div>
-                            </div>
-
-                            <div class="columns">
-                                <div class="has-text-weight-bold column">Visitors Stats:</div>
-                                <div class="column">8.0</div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </b-modal>
-
-        <b-modal v-model="isDomainInfoModalActive" :width="400" scroll="keep">
+        <b-modal v-model="isDomainInfoModalActive" :width="400">
             <div class="card">          
                 <div class="card-content">
                     <div class="content">
