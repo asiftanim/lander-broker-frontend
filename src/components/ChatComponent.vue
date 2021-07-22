@@ -1,11 +1,11 @@
 <template>
     <div class="columns" >
 
-        <div class="column  is-3 p-0" style="border:1px solid rgb(128, 128, 128, 0.5);">
-            <div class="card" style="height:100%;overflow:auto">
-                <div class="card-content" >
+        <div class="column  is-3 p-0 chat-components">
+            <div class="crad ">
+                <div class="card-content">
                     
-                    <div class="content">
+                    <div class="content chat-prospect-list">
                         <h6 class="has-text-centered">prospect1@gmail.com</h6>
                         <hr/>
                         <h6 class="has-text-centered">prospect2@gmail.com</h6>
@@ -21,34 +21,37 @@
                         <h6 class="has-text-centered">prospect7@gmail.com</h6>
                         <hr/>
                         <h6 class="has-text-centered">prospect8@gmail.com</h6>
+                        <hr/>
+                        <h6 class="has-text-centered">prospect9@gmail.com</h6>
+                        <hr/>
+                        <h6 class="has-text-centered">prospect9@gmail.com</h6>
+                        <hr/>
+                        <h6 class="has-text-centered">prospect9@gmail.com</h6>
                         
                     </div>           
                 </div>
             </div>
         </div>
 
-        <div class="column  is-6 p-0" style="border:1px solid rgb(128, 128, 128, 0.5)">
-            <div class="card" style="height:100%">
+        <div class="column  is-6 p-0 chat-components">
+            <div class="card height-100">
                 <div class="card-content">
                     <div class="content">
                         <h3 class="has-text-centered has-text-dark">Conversation</h3>
                         <hr/>
-                        <div style="position:absolute;bottom:0;width:95%">
+                        <div class="chat-input">
                             <div class="field has-addons mb-5">
-                                <input type="text" class="input is-info is-medium" placeholder="Enter your text...">
-                                <div class="control">
-                                    <a class="button is-info is-medium">Sent</a>
-                                </div>
-                            </div>                            
+                                <b-input type="text" class="input is-info" placeholder="Enter your text..."/>
+                                <b-button class="button is-info">Sent</b-button>
+                            </div>
                         </div>
-
                     </div>           
                 </div>
             </div>
         </div>
 
-        <div class="column  is-3 p-0" style="border: 1px solid rgb(128, 128, 128, 0.5)">
-            <div class="card" style="height:100%">
+        <div class="column  is-3 p-0 chat-components">
+            <div class="card height-100">
                 <div class="card-content">
                     <div class="content is-3">
                         <h3 class="has-text-centered has-text-dark">Other Info</h3>
@@ -132,6 +135,26 @@
     </div>
 </template>
 
+<style >
+ .chat-components{
+     border:1px solid rgb(128, 128, 128, 0.5);
+ }
+
+ .chat-prospect-list{
+    height: 600px;
+    overflow: auto;
+ }
+ .height-100{
+      height:100%;
+ }
+
+ .chat-input{
+     position:absolute;
+     bottom:0;
+     width:95%
+ }
+</style>
+
 <script>
 export default {
   name: 'ChatComponent',
@@ -144,4 +167,5 @@ export default {
   
 }
 </script>
+
 
